@@ -4,7 +4,3 @@ variable "access_key" {
 variable "secret_key" {
     type = string
 }
-
-github
-    sanithaedith@yahoo.com
-    Annie_1985
