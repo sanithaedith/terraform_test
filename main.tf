@@ -18,3 +18,7 @@ provider "aws" {
 resource "aws_s3_bucket" tel_test {
     bucket_prefix = "teltest-"
 }
+
+resource "aws_instance" "web" {
+  instance_type = "t2.micro"
+}
