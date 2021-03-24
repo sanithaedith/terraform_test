@@ -20,6 +20,6 @@ resource "aws_s3_bucket" tel_test {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-03cbaa39"
+  ami           = "ami-0022c769"
   instance_type = "t2.micro"
 }
